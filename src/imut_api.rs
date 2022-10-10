@@ -2,7 +2,7 @@ use std::process::Command; // for executing commands
 use lazy_static::lazy_static;
 
 lazy_static! {
-    static ref PATHS : Vec<&'static str> = vec!["/usr", "/lib", "/sbin", "/bin"]; // TODO: Set paths here
+    static ref PATHS : Vec<&'static str> = vec!["/usr", "/lib", "/sbin", "/bin"];
 }
 
 fn check_fs(path: String) -> bool {
